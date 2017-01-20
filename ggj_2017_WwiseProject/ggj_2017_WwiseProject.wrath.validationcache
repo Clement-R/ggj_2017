@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="75">
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2894062908" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="2894363186" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="2894263092" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="2894553348" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="2894233065" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1307710169" DateHigh="30569315"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="2894283105" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Effects\Default Work Unit.wwu" DateLow="2894203042" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Effects\Factory Effects.wwu" DateLow="1309081404" DateHigh="30569315"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Events\Default Work Unit.wwu" DateLow="2893952809" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="2894032894" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\ggj_2017_WwiseProject.wproj" DateLow="2893872750" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="2894513338" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2894092947" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="2894403222" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="2894333154" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Presets\Default Work Unit.wwu" DateLow="2894453262" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Queries\Default Work Unit.wwu" DateLow="2894433240" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Queries\Factory Queries.wwu" DateLow="1307620084" DateHigh="30569315"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="2893992849" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="2894483298" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\States\Default Work Unit.wwu" DateLow="2894163006" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Switches\Default Work Unit.wwu" DateLow="2894122970" DateHigh="30569325"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="2894583366" DateHigh="30569325"/>
+</ValidationCache>

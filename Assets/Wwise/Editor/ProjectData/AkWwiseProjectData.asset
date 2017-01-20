@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac9cc0808fb6a874a8e380e6d6d18993, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  CurrentPluginConfig: 
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{6F75B866-407E-45BC-A830-27C84C4FB20A}'
+    m_lastTimePsrt1: -822790359
+    m_lastTimePart2: -1999355516
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{5EC7B16E-1324-4F1F-B8A6-5A6176FA59EA}'
+    m_lastTimePsrt1: -822650221
+    m_lastTimePart2: -1999355516
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{353682F0-3BD4-481D-9590-5F10E6E8E957}'
+    m_lastTimePsrt1: -822580162
+    m_lastTimePart2: -1999355516
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{6058C3F4-E356-44BE-A0F5-D11BB1EC8BD2}'
+    m_lastTimePsrt1: -822620198
+    m_lastTimePart2: -1999355516
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{1EED5AE9-14F9-44FC-B08F-BAD982AAC9B6}'
+    m_lastTimePsrt1: -822750319
+    m_lastTimePart2: -1999355516
+    List: []
+  ExpandedItems: []
+  m_lastPopulateTimePsrt1: 0
+  m_lastPopulateTimePart2: 0
+  autoPopulateEnabled: 1
+  basePath: Audio\GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  preparePoolSize: 0
+  memoryCutoffThreshold: 0.95
