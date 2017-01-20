@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FC182F1E-F415-4064-BD09-338E0857A9F6}" SchemaVersion="75">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{FC182F1E-F415-4064-BD09-338E0857A9F6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FC182F1E-F415-4064-BD09-338E0857A9F6}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="BypassEffect0" ID="{B3196A7A-67F5-4F11-9179-BB7DBC86DF52}"/>
+				<GameParameter Name="BypassEffect1" ID="{9923801F-CD9B-43A4-8484-25C55FE52D62}"/>
+				<GameParameter Name="BypassEffect2" ID="{8AD9A9C5-35C5-4049-9188-EE2762EED4AF}"/>
+				<GameParameter Name="BypassEffect3" ID="{904368DE-3833-4034-AA84-D7B6F6ECB0D5}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

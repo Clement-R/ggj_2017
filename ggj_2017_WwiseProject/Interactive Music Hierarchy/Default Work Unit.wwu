@@ -1,6 +1,243 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{11129B39-71A4-492A-800D-2B853FEABA29}" SchemaVersion="75">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{11129B39-71A4-492A-800D-2B853FEABA29}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{11129B39-71A4-492A-800D-2B853FEABA29}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="New Music Playlist Container" ID="{6BA4BE67-4E18-40E2-8154-EDF4F91B6340}" ShortID="307508341">
+					<PropertyList>
+						<Property Name="BypassEffect0" Type="bool">
+							<RTPCList>
+								<RTPC Name="" ID="{700BD632-EAFB-4DDC-BAFE-79DB058A506C}" ShortID="831996016">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="BypassEffect0" ID="{B3196A7A-67F5-4F11-9179-BB7DBC86DF52}" WorkUnitID="{FC182F1E-F415-4064-BD09-338E0857A9F6}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{34F18234-629D-4112-9B03-F7B91B34BFB3}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="BypassEffect1" Type="bool">
+							<RTPCList>
+								<RTPC Name="" ID="{61B7992D-20EA-4003-AF92-B636FF33912B}" ShortID="692364559">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="BypassEffect1" ID="{9923801F-CD9B-43A4-8484-25C55FE52D62}" WorkUnitID="{FC182F1E-F415-4064-BD09-338E0857A9F6}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{E9957EFD-971D-4B07-96FA-73B2EE66E3E4}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="BypassEffect2" Type="bool">
+							<RTPCList>
+								<RTPC Name="" ID="{6DF74A30-67B2-4BB1-B64F-2FE6C8242914}" ShortID="536339242">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="BypassEffect2" ID="{8AD9A9C5-35C5-4049-9188-EE2762EED4AF}" WorkUnitID="{FC182F1E-F415-4064-BD09-338E0857A9F6}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{B4F3F503-F6CD-4213-BEEA-5B961D75009B}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="BypassEffect3" Type="bool">
+							<RTPCList>
+								<RTPC Name="" ID="{2F235E4A-EB20-4E26-B827-5B292DD0A9F5}" ShortID="209537776">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="BypassEffect3" ID="{904368DE-3833-4034-AA84-D7B6F6ECB0D5}" WorkUnitID="{FC182F1E-F415-4064-BD09-338E0857A9F6}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F90E7656-75EE-4508-B016-0F6409EA74EC}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{723136FC-5EE3-4B2B-8C08-17D3728AD6B8}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+							<ObjectRef Name="Chorus_Like" ID="{EEE0CC86-8CA5-4DBC-A6B7-568FCB26F290}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1">
+							<Custom CreatedFrom="{1969D30F-C165-45C0-B290-DE3ED07A7AA3}">
+								<Effect Name="Bathroom1 (Custom)" ID="{3C8FE834-0BC8-4E56-BD58-AD598E22E37C}" ShortID="378309312" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+									<PropertyList>
+										<Property Name="HFRatio" Type="Real32" Value="4.5"/>
+										<Property Name="NumberOfDelays" Type="int32" Value="12"/>
+										<Property Name="ReverbTime" Type="Real32" Value="1"/>
+										<Property Name="WetLevel" Type="Real32" Value="-20"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+						<Reference Name="Effect2" PluginName="Wwise Expander" CompanyID="0" PluginID="109" PluginType="3">
+							<ObjectRef Name="Noise_Gate_Fast_Attack" ID="{747A6B61-E953-474C-8227-672C884DA616}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect3" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+							<ObjectRef Name="Octave_Down" ID="{062EC4B1-5372-4D1E-917B-C757293F2B42}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EC7B16E-1324-4F1F-B8A6-5A6176FA59EA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="440Hz_44100Hz_16bit_05sec" ID="{ABC04C30-7BC7-4463-9AD4-C42FFA2B6103}" ShortID="829579563">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="5000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{723136FC-5EE3-4B2B-8C08-17D3728AD6B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EC7B16E-1324-4F1F-B8A6-5A6176FA59EA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="440Hz_44100Hz_16bit_05sec" ID="{62894B44-B423-4347-9332-B30FC33DBB41}" ShortID="284129834">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EC7B16E-1324-4F1F-B8A6-5A6176FA59EA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="440Hz_44100Hz_16bit_05sec" ID="{4AC5B996-009A-45A0-855B-CCFD349130E6}" ShortID="650894761">
+											<Language>SFX</Language>
+											<AudioFile>440Hz_44100Hz_16bit_05sec.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{EBBA6448-FA7E-446A-845D-5CE9B2ED4AC8}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{44858A28-C927-4801-AF85-1331B49FE61F}">
+											<ClipList>
+												<MusicClip Name="440Hz_44100Hz_16bit_05sec" ID="{27D65D52-19D9-4636-B420-7A0CBF513E28}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="5000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="440Hz_44100Hz_16bit_05sec" ID="{4AC5B996-009A-45A0-855B-CCFD349130E6}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{9DC973CF-4DD9-49A1-9DAA-611451E08991}"/>
+								<MusicCue Name="Exit Cue" ID="{DB806F83-4264-4FBE-9680-5867E55BDA93}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="5000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{C96F0FD3-B1CD-40C1-8793-6CCF27ABB657}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{58621AF7-4DD3-4352-98D4-00ADFACEA47B}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{E5B0D13F-8D05-4EA1-BF36-A6202732CA34}" ShortID="708513103">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{CACF28E0-9ECD-455D-9D3F-2571FDBDBA30}" ShortID="842708954">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="440Hz_44100Hz_16bit_05sec" ID="{ABC04C30-7BC7-4463-9AD4-C42FFA2B6103}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

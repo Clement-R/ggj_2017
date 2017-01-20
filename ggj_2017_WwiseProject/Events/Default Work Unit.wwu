@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6F75B866-407E-45BC-A830-27C84C4FB20A}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{6F75B866-407E-45BC-A830-27C84C4FB20A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6F75B866-407E-45BC-A830-27C84C4FB20A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Sound" ID="{88C3362B-9E0C-4C0B-893C-971F01AFEF81}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3448DCD5-A209-43CE-8CCE-E3DFED0F284B}" ShortID="2385829" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{71A414D0-1D4E-4ABD-A049-C797E8C45D1C}" Global="false">
+									<ObjectRef Name="440Hz_44100Hz_16bit_05sec" ID="{ABC04C30-7BC7-4463-9AD4-C42FFA2B6103}" WorkUnitID="{11129B39-71A4-492A-800D-2B853FEABA29}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_New_Music_Playlist_Container" ID="{34E8A369-DBF1-4BEE-B29A-BAF4478788E9}">
+					<ChildrenList>
+						<Action Name="Play" ID="{5DBB506E-8907-4451-96D4-17A1F83F4C46}" ShortID="767563221" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{96113918-79BF-4A2B-AC45-0C0F6B2D6B11}" Global="false">
+									<ObjectRef Name="New Music Playlist Container" ID="{6BA4BE67-4E18-40E2-8154-EDF4F91B6340}" WorkUnitID="{11129B39-71A4-492A-800D-2B853FEABA29}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
