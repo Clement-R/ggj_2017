@@ -126,22 +126,31 @@
 							<ObjectRef Name="Chorus_Like" ID="{EEE0CC86-8CA5-4DBC-A6B7-568FCB26F290}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="Effect1">
-							<Custom CreatedFrom="{1969D30F-C165-45C0-B290-DE3ED07A7AA3}">
-								<Effect Name="Bathroom1 (Custom)" ID="{3C8FE834-0BC8-4E56-BD58-AD598E22E37C}" ShortID="378309312" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+							<Custom CreatedFrom="{6D154498-FF6D-4823-96FC-56841B70E079}">
+								<Effect Name="Hall_Large (Custom)" ID="{F143E84A-377E-4134-BE78-1078AFEF2B51}" ShortID="1039217540" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<PropertyList>
-										<Property Name="HFRatio" Type="Real32" Value="4.5"/>
-										<Property Name="NumberOfDelays" Type="int32" Value="12"/>
-										<Property Name="ReverbTime" Type="Real32" Value="1"/>
-										<Property Name="WetLevel" Type="Real32" Value="-20"/>
+										<Property Name="DecayTime" Type="Real32" Value="4.9"/>
+										<Property Name="Density" Type="Real32" Value="70"/>
+										<Property Name="ERLevel" Type="Real32" Value="-23"/>
+										<Property Name="ERPattern" Type="int32" Value="15"/>
+										<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+										<Property Name="Filter1Gain" Type="Real32" Value="3"/>
+										<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
+										<Property Name="HFDamping" Type="Real32" Value="2.35"/>
+										<Property Name="PreDelay" Type="Real32" Value="74"/>
+										<Property Name="Quality" Type="int32" Value="14"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
+										<Property Name="RoomShape" Type="Real32" Value="55"/>
+										<Property Name="RoomSize" Type="Real32" Value="49"/>
 									</PropertyList>
 								</Effect>
 							</Custom>
 						</Reference>
-						<Reference Name="Effect2" PluginName="Wwise Expander" CompanyID="0" PluginID="109" PluginType="3">
-							<ObjectRef Name="Noise_Gate_Fast_Attack" ID="{747A6B61-E953-474C-8227-672C884DA616}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						<Reference Name="Effect2" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+							<ObjectRef Name="Heavy_Metal" ID="{9104321C-9E54-4879-A29A-EF8D46BE9035}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
-						<Reference Name="Effect3" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
-							<ObjectRef Name="Octave_Down" ID="{062EC4B1-5372-4D1E-917B-C757293F2B42}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						<Reference Name="Effect3" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+							<ObjectRef Name="Aliasing" ID="{4CCC0D23-78CD-4B09-A62B-D3CB5E071A2F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5EC7B16E-1324-4F1F-B8A6-5A6176FA59EA}"/>

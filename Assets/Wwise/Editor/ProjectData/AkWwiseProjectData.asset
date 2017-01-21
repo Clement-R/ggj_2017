@@ -16,9 +16,29 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{6F75B866-407E-45BC-A830-27C84C4FB20A}'
-    m_lastTimePsrt1: -822790359
-    m_lastTimePart2: -1999355516
-    List: []
+    m_lastTimePsrt1: 880752282
+    m_lastTimePart2: -1999355508
+    List:
+    - Name: Play_New_Music_Playlist_Container
+      Path: Default Work Unit\Play_New_Music_Playlist_Container
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_New_Music_Playlist_Container
+        ObjectType: 3
+      ID: -1941980059
+      Guid: 69a3e834f1dbee4bb29abaf4478788e9
+      maxAttenuation: 0
+    - Name: Sound
+      Path: Default Work Unit\Sound
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sound
+        ObjectType: 3
+      ID: 623086306
+      Guid: 2b36c3880c9e0b4c893c971f01afef81
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -47,7 +67,8 @@ MonoBehaviour:
     m_lastTimePsrt1: -822750319
     m_lastTimePart2: -1999355516
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /ggj_2017_WwiseProject
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
