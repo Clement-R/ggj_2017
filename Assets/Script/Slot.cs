@@ -22,9 +22,8 @@ public class Slot : MonoBehaviour, IDropHandler {
             return null;
         }
     }
-
+    
     public void OnDrop(PointerEventData eventData) {
-        Debug.Log("Hello");
         if(!item) {
             if(transform.tag != "Inventory") {
                 // Check if the block can move
@@ -51,13 +50,24 @@ public class Slot : MonoBehaviour, IDropHandler {
                     }
 
                     if(newPositionIsValid) {
+                        // Check if the new cell is a modifier or not and play the according sound
+                        if(gameManager.isPositionModifier(cellPosition.Key, cellPosition.Value)) {
+                            AkSoundEngine.PostEvent("Play_Block_ok", gameObject);
+                        } else {
+                            AkSoundEngine.PostEvent("Play_Poser_block", gameObject);
+                        }
+                        
                         // Tell the grid manager that this cell is now used and give the block type
                         gridManager.fillCell(cellPosition.Key, cellPosition.Value, blockType);
 
                         // Get transform of the given cell and call setParent with it as parameter
                         Transform targetedCell = GameObject.Find(cellPosition.Key + "_" + cellPosition.Value).transform;
                         DragHandler.itemBeingDragged.transform.SetParent(targetedCell);
+                    } else {
+                        AkSoundEngine.PostEvent("Play_Block_error", gameObject);
                     }
+                } else {
+                    AkSoundEngine.PostEvent("Play_Block_error", gameObject);
                 }
             } else {
                 DragHandler.itemBeingDragged.transform.SetParent(transform);

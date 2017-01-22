@@ -3,6 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{B4F1EFDE-7FEC-419B-979B-957A5088BF2C}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="F:\_Dev\Gamedev\GGJ2017\EXPORT SON - Padelboard disorder"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Linux"></Value>
@@ -25,10 +26,16 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="P42RLGsw3Eec7Jk+g3pUdg=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="Interactive Music\x64_{04AD52E3-4534-42BC-93C1-725C36196022} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP5ae53mex09AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAC5A"/>
-				<Property Name="Interactive Music\x64_{098F5F5D-E77F-40D5-95F8-4C41DBD6A558} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAWEpAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAC5A"/>
-				<Property Name="Interactive Music\x64_{0F61B44E-9F6D-46BA-BF0A-D02865AB3949} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP+PMzMzMnE9AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{098F5F5D-E77F-40D5-95F8-4C41DBD6A558} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAWEpAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{0F61B44E-9F6D-46BA-BF0A-D02865AB3949} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP+PMzMzMnE9AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAC5A"/>
+				<Property Name="Interactive Music\x64_{24CC82FA-CC70-4A3A-81F2-7F8E186273F2} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAWGpAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{4580041A-5E6C-48D3-B189-844ABF0E0DFA} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP47jOI7jOE9AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAC5A"/>
-				<Property Name="Interactive Music\x64_{540664A8-FF14-4E3B-987D-3AFA2A4B542C} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP9M0TdM0TTZAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{540664A8-FF14-4E3B-987D-3AFA2A4B542C} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP9M0TdM0TTZAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAC5A"/>
+				<Property Name="Interactive Music\x64_{654B0476-E817-45E6-9D56-C5C88C1E1DE6} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAWGpAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{83E70D38-C9C7-4127-AD9C-075AB1C6E90C} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAWGpAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{B033F036-E0BD-4DAA-9F3B-141E97271759} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAkDFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{BE4E6E64-72AB-44FB-A29A-A4FBAD580EFB} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAWGpAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{CD81E6A7-CC62-441C-91AB-C7439EA2D765} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAWGpAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>

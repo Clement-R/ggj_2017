@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{B5939626-50A4-4E12-B729-301CA8A0DFDA}'
-    m_lastTimePsrt1: 1735289132
-    m_lastTimePart2: -1999355316
+    m_lastTimePsrt1: 284440756
+    m_lastTimePart2: -1999355245
     List:
     - Name: Mute_lead
       Path: Default Work Unit\Mute_lead
@@ -28,6 +28,96 @@ MonoBehaviour:
         ObjectType: 3
       ID: -1039219657
       Guid: 5b85b3262f3cfd4c8c67c405fb8622d7
+      maxAttenuation: 0
+    - Name: Play_Attraper_block
+      Path: Default Work Unit\Play_Attraper_block
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Attraper_block
+        ObjectType: 3
+      ID: -1727475505
+      Guid: eb93aaf175bcc646aadaf2223c86f1eb
+      maxAttenuation: 0
+    - Name: Play_Block_error
+      Path: Default Work Unit\Play_Block_error
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Block_error
+        ObjectType: 3
+      ID: 2101135110
+      Guid: 4b0d7f3ddaf9fa4e81a2128e0324247b
+      maxAttenuation: 0
+    - Name: Play_Block_ok
+      Path: Default Work Unit\Play_Block_ok
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Block_ok
+        ObjectType: 3
+      ID: -1208492230
+      Guid: bbabb0459055d341a2cc939cef4749bf
+      maxAttenuation: 0
+    - Name: Play_menu_loop
+      Path: Default Work Unit\Play_menu_loop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_menu_loop
+        ObjectType: 3
+      ID: 464882912
+      Guid: 54bd4e5f25764545b47f731bd5d670b0
+      maxAttenuation: 0
+    - Name: Play_Over_button
+      Path: Default Work Unit\Play_Over_button
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Over_button
+        ObjectType: 3
+      ID: 164845295
+      Guid: a83a2d56243e844392887bdec47f5c78
+      maxAttenuation: 0
+    - Name: Play_play_song
+      Path: Default Work Unit\Play_play_song
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_play_song
+        ObjectType: 3
+      ID: -1797094740
+      Guid: 5da9ff334d7488439871ede1478f8a52
+      maxAttenuation: 0
+    - Name: Play_Poser_block
+      Path: Default Work Unit\Play_Poser_block
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Poser_block
+        ObjectType: 3
+      ID: -340825193
+      Guid: 7eb8de30856ebf49871b4d8773a62db0
+      maxAttenuation: 0
+    - Name: Play_Select_button
+      Path: Default Work Unit\Play_Select_button
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Select_button
+        ObjectType: 3
+      ID: 880454473
+      Guid: b7f2b728029fac4dbac19e20077ef8d0
+      maxAttenuation: 0
+    - Name: Play_Stop_song
+      Path: Default Work Unit\Play_Stop_song
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Stop_song
+        ObjectType: 3
+      ID: -345613810
+      Guid: c820b36d8095c74c85c8ef933430ac9d
       maxAttenuation: 0
     - Name: Play_track1
       Path: Default Work Unit\Play_track1
@@ -78,6 +168,16 @@ MonoBehaviour:
         ObjectType: 3
       ID: -871011760
       Guid: 71c7f82ff5353c4b88604949cdf52588
+      maxAttenuation: 0
+    - Name: Stop_menu_loop
+      Path: Default Work Unit\Stop_menu_loop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_menu_loop
+        ObjectType: 3
+      ID: -552367750
+      Guid: b37dfa46b6672748bb29b2525100d657
       maxAttenuation: 0
     - Name: Stop_track1
       Path: Default Work Unit\Stop_track1
@@ -164,8 +264,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{7822999B-47B5-4B5A-B50B-7920C641C2E3}'
-    m_lastTimePsrt1: -956594907
-    m_lastTimePart2: -1999355325
+    m_lastTimePsrt1: 284485805
+    m_lastTimePart2: -1999355245
     List:
     - Name: New_SoundBank
       Path: Default Work Unit\New_SoundBank
@@ -179,7 +279,8 @@ MonoBehaviour:
   ExpandedItems:
   - /GG 7pedal
   - /GG 7pedal/Events
-  - /GG 7pedal/Events/Default Work Unit
+  - /GG 7pedal/SoundBanks
+  - /GG 7pedal/SoundBanks/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

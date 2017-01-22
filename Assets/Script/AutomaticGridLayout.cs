@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class AutomaticGridLayout : MonoBehaviour {
     public int col, row;
 
-	void Start () {
+	void Update () {
         RectTransform parent = gameObject.GetComponent<RectTransform>();
         GridLayoutGroup grid = gameObject.GetComponent<GridLayoutGroup>();
 

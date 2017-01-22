@@ -1,16 +1,26 @@
 Event	ID	Name			Wwise Object Path	Notes
+	164845295	Play_Over_button			\Default Work Unit\Play_Over_button	
+	464882912	Play_menu_loop			\Default Work Unit\Play_menu_loop	
+	880454473	Play_Select_button			\Default Work Unit\Play_Select_button	
 	1332330304	Unmute_lead			\Default Work Unit\Unmute_lead	
+	2101135110	Play_Block_error			\Default Work Unit\Play_Block_error	
+	2497872556	Play_play_song			\Default Work Unit\Play_play_song	
+	2567491791	Play_Attraper_block			\Default Work Unit\Play_Attraper_block	
 	2837865242	Stop_track5			\Default Work Unit\Stop_track5	
 	2837865243	Stop_track4			\Default Work Unit\Stop_track4	
 	2837865244	Stop_track3			\Default Work Unit\Stop_track3	
 	2837865245	Stop_track2			\Default Work Unit\Stop_track2	
 	2837865246	Stop_track1			\Default Work Unit\Stop_track1	
+	3086475066	Play_Block_ok			\Default Work Unit\Play_Block_ok	
 	3255747639	Mute_lead			\Default Work Unit\Mute_lead	
 	3423955536	Play_track5			\Default Work Unit\Play_track5	
 	3423955537	Play_track4			\Default Work Unit\Play_track4	
 	3423955540	Play_track1			\Default Work Unit\Play_track1	
 	3423955542	Play_track3			\Default Work Unit\Play_track3	
 	3423955543	Play_track2			\Default Work Unit\Play_track2	
+	3742599546	Stop_menu_loop			\Default Work Unit\Stop_menu_loop	
+	3949353486	Play_Stop_song			\Default Work Unit\Play_Stop_song	
+	3954142103	Play_Poser_block			\Default Work Unit\Play_Poser_block	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	797918088	FX1			\Default Work Unit\FX1	
@@ -32,14 +42,23 @@ Effect plug-ins	ID	Name	Type				Notes
 	3451596814	Hall_Medium	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	25315431	Play_song	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Play_song_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Play_song\Play_song		57840
+	234579249	Musique_menu_loop	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Musique_menu_loop_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Musique_menu_loop\Musique_menu_loop		9216064
+	255324593	Select_button	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Select_button_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Select_button\Select_button		43852
 	294303416	Base_Shamiser	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Base_Shamiser_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 1\Track 1_Shamiser\Base_Shamiser		6912064
 	343612517	Lead_Flute	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Lead_Flute_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 5\Track 5_Flute\Lead_Flute		3072064
 	378772325	Base_Harmonica	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Base_Harmonica_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 4\Track 4_Harmonica\Base_Harmonica		1940276
 	437144338	Base_Piano	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Base_Piano_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 2\Track 2_Piano\Base_Piano		1675704
 	461945013	Base_Guitare	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Base_Guitare_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 3\Track 3_Guitare\Base_Guitare		2048064
+	475823410	Block_ok	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Block_ok_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Block_ok\Block_ok		97280
+	534982749	Block_error	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Block_error_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Block_error\Block_error		134084
+	643761330	Attraper_block	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Attraper_block_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Attraper_block\Attraper_block		48228
+	743820064	Poser_block	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Poser_block_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Poser_block\Poser_block		57064
 	912189588	Lead_Guitare	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Lead_Guitare_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 3\Track 3_Guitare\Lead_Guitare		2048064
 	912669878	Lead_Piano	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Lead_Piano_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 2\Track 2_Piano\Lead_Piano		1675704
 	924083322	Lead_Shamiser	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Lead_Shamiser_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 1\Track 1_Shamiser\Lead_Shamiser		1382464
+	953174093	Stop_song	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Stop_song_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Stop_song\Stop_song		49428
 	970703839	Lead_Harmonica	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Lead_Harmonica_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 4\Track 4_Harmonica\Lead_Harmonica		1940276
+	1051239882	Over_button	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Over_button_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Over_button\Over_button		27596
 	1070898174	Base_Flute	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Mac\SFX\Base_Flute_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 5\Track 5_Flute\Base_Flute		3072064
 

@@ -8,11 +8,23 @@ public class GameManager : MonoBehaviour {
     public bool isListeningToFinal = false;
     public bool isListeningToCurrent = false;
     public Dictionary<int, int> rtpcs = new Dictionary<int, int>();
+    public List<Sprite> backgrounds = new List<Sprite>();
+    public List<Sprite> playingButtons = new List<Sprite>();
+    public List<Sprite> waitingButtons = new List<Sprite>();
 
     Dictionary<int, List<int>> validBlocks = new Dictionary<int, List<int>>();
     GridManager gridManager;
 
 	void Start () {
+        // TODO : set background
+        GameObject.Find("Background").GetComponent<SpriteRenderer>().sprite = backgrounds[levelIndex];
+        // TODO : set buttons
+        GameObject.Find("FinalButton").GetComponent<PlayFinalSound>().isPlaying = playingButtons[levelIndex];
+        GameObject.Find("FinalButton").GetComponent<PlayFinalSound>().isWaiting = waitingButtons[levelIndex];
+
+        GameObject.Find("CurrentButton").GetComponent<PlayFinalSound>().isPlaying = playingButtons[levelIndex];
+        GameObject.Find("CurrentButton").GetComponent<PlayFinalSound>().isWaiting = waitingButtons[levelIndex];
+
         gridManager = GetComponent<GridManager>();
 
         validBlocks[0] = new List<int>(new int[2] { 0, 3 });
@@ -80,9 +92,17 @@ public class GameManager : MonoBehaviour {
         if(validBlocks[type].Contains(underBlockType)) {
             isValid = true;
         }
-        
-        // AkSoundEngine.SetRTPCValue();
 
         return isValid;
+    }
+
+    public bool isPositionModifier(int x, int y) {
+        SoundModifier sd = GameObject.Find(x + "_" + y).GetComponent<SoundModifier>();
+
+        if(sd != null) {
+            return true;
+        }
+
+        return false;
     }
 }
