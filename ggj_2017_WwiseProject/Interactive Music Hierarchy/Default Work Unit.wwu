@@ -1641,6 +1641,13 @@
 					</CueList>
 				</MusicSegment>
 				<MusicSegment Name="Block_ok" ID="{BE4E6E64-72AB-44FB-A29A-A4FBAD580EFB}" ShortID="425658685">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{81B33943-51C1-45A0-9E70-04CCFE620E76}"/>

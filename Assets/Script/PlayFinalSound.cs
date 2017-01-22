@@ -19,6 +19,12 @@ public class PlayFinalSound : MonoBehaviour {
         GetComponent<Image>().sprite = isWaiting;
     }
 
+    void Update() {
+        if(GetComponent<Image>().sprite == null) {
+            GetComponent<Image>().sprite = isWaiting;
+        }
+    }
+
     void PlaySound() {
         if (!gameManager.isListeningToCurrent && !gameManager.isListeningToFinal) {
 
@@ -52,6 +58,9 @@ public class PlayFinalSound : MonoBehaviour {
             // AkSoundEngine.GetRTPCValue("FX" + rtpc.Value);
             AkSoundEngine.SetRTPCValue("FX" + rtpc.Key, 0.75f);
         }
+
+        // Play feedback sound
+        AkSoundEngine.PostEvent("Play_Stop_song", gameObject);
 
         // Set image to waiting
         GetComponent<Image>().sprite = isWaiting;

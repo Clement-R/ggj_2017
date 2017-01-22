@@ -11,19 +11,20 @@ public class GameManager : MonoBehaviour {
     public List<Sprite> backgrounds = new List<Sprite>();
     public List<Sprite> playingButtons = new List<Sprite>();
     public List<Sprite> waitingButtons = new List<Sprite>();
+    public bool hasWin = false;
 
     Dictionary<int, List<int>> validBlocks = new Dictionary<int, List<int>>();
     GridManager gridManager;
 
 	void Start () {
-        // TODO : set background
-        GameObject.Find("Background").GetComponent<SpriteRenderer>().sprite = backgrounds[levelIndex];
-        // TODO : set buttons
-        GameObject.Find("FinalButton").GetComponent<PlayFinalSound>().isPlaying = playingButtons[levelIndex];
-        GameObject.Find("FinalButton").GetComponent<PlayFinalSound>().isWaiting = waitingButtons[levelIndex];
+        
+        GameObject.Find("Background").GetComponent<SpriteRenderer>().sprite = backgrounds[levelIndex - 1];
 
-        GameObject.Find("CurrentButton").GetComponent<PlayFinalSound>().isPlaying = playingButtons[levelIndex];
-        GameObject.Find("CurrentButton").GetComponent<PlayFinalSound>().isWaiting = waitingButtons[levelIndex];
+        GameObject.Find("FinalButton").GetComponent<PlayFinalSound>().isPlaying = playingButtons[levelIndex - 1];
+        GameObject.Find("FinalButton").GetComponent<PlayFinalSound>().isWaiting = waitingButtons[levelIndex - 1];
+
+        GameObject.Find("CurrentButton").GetComponent<PlayCurrentSound>().isPlaying = playingButtons[levelIndex - 1];
+        GameObject.Find("CurrentButton").GetComponent<PlayCurrentSound>().isWaiting = waitingButtons[levelIndex - 1];
 
         gridManager = GetComponent<GridManager>();
 
@@ -77,7 +78,7 @@ public class GameManager : MonoBehaviour {
             }
 
             if (allRtcpActivated) {
-                Debug.Log("YOU WIN !");
+                hasWin = true;
             }
         }
     }

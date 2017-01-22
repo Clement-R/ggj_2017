@@ -22,6 +22,12 @@ public class PlayCurrentSound : MonoBehaviour {
         GetComponent<Image>().sprite = isWaiting;
     }
 
+    void Update() {
+        if (GetComponent<Image>().sprite == null) {
+            GetComponent<Image>().sprite = isWaiting;
+        }
+    }
+
     void PlaySound() {
         if (!gameManager.isListeningToCurrent && !gameManager.isListeningToFinal) {
             // Set image to listening
@@ -40,7 +46,11 @@ public class PlayCurrentSound : MonoBehaviour {
         yield return new WaitForSeconds(5f);
         AkSoundEngine.PostEvent("Mute_lead", gameObject);
         gameManager.isListeningToCurrent = false;
+
         // Set image to waiting
         GetComponent<Image>().sprite = isWaiting;
+
+        // Play feedback sound
+        AkSoundEngine.PostEvent("Play_Stop_song", gameObject);
     }
 }
