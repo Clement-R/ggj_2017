@@ -18,7 +18,7 @@ public class VictoryPanelManager : MonoBehaviour {
         AkSoundEngine.PostEvent("Stop_All", gameObject);
         int levelIndex = int.Parse(SceneManager.GetActiveScene().name.Split('_')[1]) + 1;
         Debug.Log(levelIndex);
-        if(levelIndex <= 6) {
+        if(levelIndex <= 5) {
             SceneManager.LoadScene("level_" + levelIndex);
         } else {
             SceneManager.LoadScene("credits");

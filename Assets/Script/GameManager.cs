@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour {
     public int levelIndex;
     public bool isListeningToFinal = false;
     public bool isListeningToCurrent = false;
-    public Dictionary<int, int> rtpcs = new Dictionary<int, int>();
+    public Dictionary<int, bool> rtpcs = new Dictionary<int, bool>();
     public List<Sprite> backgrounds = new List<Sprite>();
     public List<Sprite> playingButtons = new List<Sprite>();
     public List<Sprite> waitingButtons = new List<Sprite>();
@@ -34,21 +34,20 @@ public class GameManager : MonoBehaviour {
         validBlocks[5] = new List<int>(new int[6] { 0, 1, 2, 3, 4, 5 });
 
         for (int i = 0; i < waitedModifiers.Count; i++) {
-            rtpcs.Add(waitedModifiers[i], 1);
+            rtpcs.Add(waitedModifiers[i], false);
         }
     }
 
     void Update() {
-        // Deactivate all RTPC
-        for (int i = 0; i < rtpcs.Count; i++) {
-            rtpcs[i] = 1;
-        }
-
         // Check all cells in the game
         if(!isListeningToFinal) {
+            // Deactivate all RTPC
+            for (int i = 0; i < waitedModifiers.Count; i++) {
+                rtpcs[waitedModifiers[i]] = false;
+            }
+
             for (int i = 0; i < 5; i++) {
                 for (int j = 0; j < 5; j++) {
-
                     // Get the cell and check if it can activate modifiers
                     GameObject block = GameObject.Find(i + "_" + j);
                     SoundModifier soundManager = block.GetComponent<SoundModifier>();
@@ -57,22 +56,21 @@ public class GameManager : MonoBehaviour {
                     if (soundManager != null) {
                         if (block.transform.childCount > 0) {
                             Block bl = block.transform.GetChild(0).GetComponent<Block>();
-                            rtpcs[bl.modifier] = 0;
+                            rtpcs[bl.modifier] = true;
                         }
                     }
                 }
             }
-
+            
             // Check all modifiers and activate RTPC accordingly
-            bool allRtcpActivated = false;
+            bool allRtcpActivated = true;
 
             foreach (var rtpc in rtpcs) {
-                if (rtpc.Value == 0) {
+                if (rtpc.Value) {
                     AkSoundEngine.SetRTPCValue("FX" + rtpc.Key, 0.25f);
-                    allRtcpActivated = true;
-                }
-                else {
+                } else {
                     AkSoundEngine.SetRTPCValue("FX" + rtpc.Key, 0.75f);
+                    allRtcpActivated = false;
                 }
             }
 

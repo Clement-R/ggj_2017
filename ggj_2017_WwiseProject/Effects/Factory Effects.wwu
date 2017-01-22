@@ -623,8 +623,9 @@
 										<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
 										<Property Name="FrequencyBand2" Type="Real32" Value="749"/>
 										<Property Name="FrequencyBand3" Type="Real32" Value="1215"/>
-										<Property Name="GainBand2" Type="Real32" Value="3.5"/>
+										<Property Name="GainBand2" Type="Real32" Value="2"/>
 										<Property Name="OnOffBand1" Type="bool" Value="False"/>
+										<Property Name="OutputLevel" Type="Real32" Value="-9"/>
 									</PropertyList>
 								</Effect>
 							</ChildrenList>
