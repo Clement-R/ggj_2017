@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4072029455" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3255747639" Name="Mute_lead" ObjectPath="\Events\Default Work Unit\Mute_lead"/>
+				<Event Id="3423955540" Name="Play_track1" ObjectPath="\Events\Default Work Unit\Play_track1"/>
+				<Event Id="3423955543" Name="Play_track2" ObjectPath="\Events\Default Work Unit\Play_track2"/>
+				<Event Id="3423955542" Name="Play_track3" ObjectPath="\Events\Default Work Unit\Play_track3"/>
+				<Event Id="3423955537" Name="Play_track4" ObjectPath="\Events\Default Work Unit\Play_track4"/>
+				<Event Id="3423955536" Name="Play_track5" ObjectPath="\Events\Default Work Unit\Play_track5"/>
+				<Event Id="2837865246" Name="Stop_track1" ObjectPath="\Events\Default Work Unit\Stop_track1"/>
+				<Event Id="2837865245" Name="Stop_track2" ObjectPath="\Events\Default Work Unit\Stop_track2"/>
+				<Event Id="2837865244" Name="Stop_track3" ObjectPath="\Events\Default Work Unit\Stop_track3"/>
+				<Event Id="2837865243" Name="Stop_track4" ObjectPath="\Events\Default Work Unit\Stop_track4"/>
+				<Event Id="2837865242" Name="Stop_track5" ObjectPath="\Events\Default Work Unit\Stop_track5"/>
+				<Event Id="1332330304" Name="Unmute_lead" ObjectPath="\Events\Default Work Unit\Unmute_lead"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="294303416" Language="SFX">
+					<ShortName>Base_Shamiser.wav</ShortName>
+					<Path>SFX\Base_Shamiser_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="343612517" Language="SFX">
+					<ShortName>Lead_Flute.wav</ShortName>
+					<Path>SFX\Lead_Flute_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="378772325" Language="SFX">
+					<ShortName>Base_Harmonica.wav</ShortName>
+					<Path>SFX\Base_Harmonica_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="437144338" Language="SFX">
+					<ShortName>Base_Piano.wav</ShortName>
+					<Path>SFX\Base_Piano_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="461945013" Language="SFX">
+					<ShortName>Base_Guitare.wav</ShortName>
+					<Path>SFX\Base_Guitare_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="912189588" Language="SFX">
+					<ShortName>Lead_Guitare.wav</ShortName>
+					<Path>SFX\Lead_Guitare_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="912669878" Language="SFX">
+					<ShortName>Lead_Piano.wav</ShortName>
+					<Path>SFX\Lead_Piano_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="924083322" Language="SFX">
+					<ShortName>Lead_Shamiser.wav</ShortName>
+					<Path>SFX\Lead_Shamiser_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="970703839" Language="SFX">
+					<ShortName>Lead_Harmonica.wav</ShortName>
+					<Path>SFX\Lead_Harmonica_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="1070898174" Language="SFX">
+					<ShortName>Base_Flute.wav</ShortName>
+					<Path>SFX\Base_Flute_4B8CC0C5.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

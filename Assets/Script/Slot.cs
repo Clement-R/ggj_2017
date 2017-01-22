@@ -24,6 +24,7 @@ public class Slot : MonoBehaviour, IDropHandler {
     }
 
     public void OnDrop(PointerEventData eventData) {
+        Debug.Log("Hello");
         if(!item) {
             if(transform.tag != "Inventory") {
                 // Check if the block can move

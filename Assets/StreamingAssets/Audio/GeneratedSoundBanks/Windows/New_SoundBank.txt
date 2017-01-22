@@ -1,0 +1,45 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1332330304	Unmute_lead			\Default Work Unit\Unmute_lead	
+	2837865242	Stop_track5			\Default Work Unit\Stop_track5	
+	2837865243	Stop_track4			\Default Work Unit\Stop_track4	
+	2837865244	Stop_track3			\Default Work Unit\Stop_track3	
+	2837865245	Stop_track2			\Default Work Unit\Stop_track2	
+	2837865246	Stop_track1			\Default Work Unit\Stop_track1	
+	3255747639	Mute_lead			\Default Work Unit\Mute_lead	
+	3423955536	Play_track5			\Default Work Unit\Play_track5	
+	3423955537	Play_track4			\Default Work Unit\Play_track4	
+	3423955540	Play_track1			\Default Work Unit\Play_track1	
+	3423955542	Play_track3			\Default Work Unit\Play_track3	
+	3423955543	Play_track2			\Default Work Unit\Play_track2	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	797918088	FX1			\Default Work Unit\FX1	
+	797918090	FX3			\Default Work Unit\FX3	
+	797918091	FX2			\Default Work Unit\FX2	
+	797918092	FX5			\Default Work Unit\FX5	
+	797918093	FX4			\Default Work Unit\FX4	
+	797918095	FX6			\Default Work Unit\FX6	
+
+Effect plug-ins	ID	Name	Type				Notes
+	130212580	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	176439046	Caught_in_a_loop	Wwise Stereo Delay			
+	200418552	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	229197059	Fear_no_Evil (Custom)	Wwise Harmonizer			
+	784309097	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	819943492	Fear_no_Evil	Wwise Harmonizer			
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
+	1674078407	Chorus_Like	Wwise Flanger			
+	3451596814	Hall_Medium	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	294303416	Base_Shamiser	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Windows\SFX\Base_Shamiser_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 1\Track 1_Shamiser\Base_Shamiser		6912064
+	343612517	Lead_Flute	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Windows\SFX\Lead_Flute_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 5\Track 5_Flute\Lead_Flute		3072064
+	378772325	Base_Harmonica	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Windows\SFX\Base_Harmonica_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 4\Track 4_Harmonica\Base_Harmonica		1940276
+	437144338	Base_Piano	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Windows\SFX\Base_Piano_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 2\Track 2_Piano\Base_Piano		1675704
+	461945013	Base_Guitare	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Windows\SFX\Base_Guitare_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 3\Track 3_Guitare\Base_Guitare		2048064
+	912189588	Lead_Guitare	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Windows\SFX\Lead_Guitare_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 3\Track 3_Guitare\Lead_Guitare		2048064
+	912669878	Lead_Piano	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Windows\SFX\Lead_Piano_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 2\Track 2_Piano\Lead_Piano		1675704
+	924083322	Lead_Shamiser	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Windows\SFX\Lead_Shamiser_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 1\Track 1_Shamiser\Lead_Shamiser		1382464
+	970703839	Lead_Harmonica	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Windows\SFX\Lead_Harmonica_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 4\Track 4_Harmonica\Lead_Harmonica		1940276
+	1070898174	Base_Flute	F:\_Dev\Gamedev\GGJ2017\ggj_2017\ggj_2017_WwiseProject\.cache\Windows\SFX\Base_Flute_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Track 5\Track 5_Flute\Base_Flute		3072064
+

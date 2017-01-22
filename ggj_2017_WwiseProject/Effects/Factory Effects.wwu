@@ -621,9 +621,10 @@
 									<PropertyList>
 										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
 										<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
-										<Property Name="FrequencyBand3" Type="Real32" Value="20000"/>
+										<Property Name="FrequencyBand2" Type="Real32" Value="749"/>
+										<Property Name="FrequencyBand3" Type="Real32" Value="1215"/>
+										<Property Name="GainBand2" Type="Real32" Value="3.5"/>
 										<Property Name="OnOffBand1" Type="bool" Value="False"/>
-										<Property Name="OnOffBand2" Type="bool" Value="False"/>
 									</PropertyList>
 								</Effect>
 							</ChildrenList>
@@ -1574,11 +1575,13 @@
 								</Effect>
 								<Effect Name="Heavy_Metal" ID="{9104321C-9E54-4879-A29A-EF8D46BE9035}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
 									<PropertyList>
-										<Property Name="DelayTime" Type="Real32" Value="7"/>
-										<Property Name="FeedBackLevel" Type="Real32" Value="0.95"/>
+										<Property Name="DelayTime" Type="Real32" Value="10.7"/>
+										<Property Name="DryLevel" Type="Real32" Value="0.42"/>
+										<Property Name="FeedBackLevel" Type="Real32" Value="0.55"/>
 										<Property Name="ModDepth" Type="Real32" Value="2"/>
 										<Property Name="ModFrequency" Type="Real32" Value="0.25"/>
 										<Property Name="ModPWM" Type="Real32" Value="0"/>
+										<Property Name="WetDryMix" Type="Real32" Value="65"/>
 									</PropertyList>
 								</Effect>
 							</ChildrenList>
@@ -1587,10 +1590,12 @@
 							<ChildrenList>
 								<Effect Name="Chorus_Like" ID="{EEE0CC86-8CA5-4DBC-A6B7-568FCB26F290}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
 									<PropertyList>
-										<Property Name="DelayTime" Type="Real32" Value="10"/>
+										<Property Name="DelayTime" Type="Real32" Value="16.5"/>
+										<Property Name="FeedBackLevel" Type="Real32" Value="0.3"/>
 										<Property Name="ModDepth" Type="Real32" Value="60"/>
 										<Property Name="ModFrequency" Type="Real32" Value="0.85"/>
 										<Property Name="ModPWM" Type="Real32" Value="0"/>
+										<Property Name="OutputLevel" Type="Real32" Value="-6"/>
 									</PropertyList>
 								</Effect>
 							</ChildrenList>
@@ -1678,10 +1683,11 @@
 					<ChildrenList>
 						<Effect Name="Fear_no_Evil" ID="{A1F17D99-0801-4F32-B74E-ADB2D9ACC556}" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
 							<PropertyList>
-								<Property Name="DryLevel" Type="Real32" Value="-3"/>
+								<Property Name="DryLevel" Type="Real32" Value="-96"/>
 								<Property Name="Voice1Pitch" Type="Real32" Value="-100"/>
 								<Property Name="Voice2Enable" Type="bool" Value="True"/>
 								<Property Name="Voice2Pitch" Type="Real32" Value="100"/>
+								<Property Name="WetLevel" Type="Real32" Value="3"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Secret_message" ID="{2F5DE612-1AAD-4A84-8FB4-3E66521C920E}" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
@@ -1830,7 +1836,6 @@
 						</Effect>
 						<Effect Name="Caught_in_a_loop" ID="{8FC64215-9A75-4BE3-A33A-584C8CA49963}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
 							<PropertyList>
-								<Property Name="DryLevel" Type="Real32" Value="-96"/>
 								<Property Name="EnableCrossFeed" Type="bool" Value="True"/>
 								<Property Name="EnableFeedback" Type="bool" Value="True"/>
 								<Property Name="FilterFrequency" Type="Real32" Value="2364"/>
@@ -1841,6 +1846,7 @@
 								<Property Name="RightCrossfeed" Type="Real32" Value="-6"/>
 								<Property Name="RightDelayTime" Type="Real32" Value="0.39"/>
 								<Property Name="RightFeedback" Type="Real32" Value="-6"/>
+								<Property Name="WetLevel" Type="Real32" Value="-9"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Straight_Delay" ID="{00ADE3F8-B4F2-465A-9DC3-9EA55A7B3235}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
@@ -1977,7 +1983,7 @@
 								<Effect Name="Voice_CenterOnly_Lowered" ID="{179558E7-E6DF-4021-9D38-A284DF53B7E5}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
 									<PropertyList>
 										<Property Name="Input" Type="int32" Value="1"/>
-										<Property Name="Pitch" Type="Real32" Value="-500"/>
+										<Property Name="Pitch" Type="Real32" Value="-600"/>
 									</PropertyList>
 								</Effect>
 							</ChildrenList>

@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  modifier: 0
+  modifier: 3
   isModifierEnable: 0
 --- !u!114 &114274795582250958
 MonoBehaviour:

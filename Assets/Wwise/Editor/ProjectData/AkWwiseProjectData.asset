@@ -15,67 +15,178 @@ MonoBehaviour:
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
-    Guid: '{6F75B866-407E-45BC-A830-27C84C4FB20A}'
-    m_lastTimePsrt1: 880752282
-    m_lastTimePart2: -1999355508
+    Guid: '{B5939626-50A4-4E12-B729-301CA8A0DFDA}'
+    m_lastTimePsrt1: 1735289132
+    m_lastTimePart2: -1999355316
     List:
-    - Name: Play_New_Music_Playlist_Container
-      Path: Default Work Unit\Play_New_Music_Playlist_Container
+    - Name: Mute_lead
+      Path: Default Work Unit\Mute_lead
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_New_Music_Playlist_Container
+      - ElementName: Mute_lead
         ObjectType: 3
-      ID: -1941980059
-      Guid: 69a3e834f1dbee4bb29abaf4478788e9
+      ID: -1039219657
+      Guid: 5b85b3262f3cfd4c8c67c405fb8622d7
       maxAttenuation: 0
-    - Name: Sound
-      Path: Default Work Unit\Sound
+    - Name: Play_track1
+      Path: Default Work Unit\Play_track1
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Sound
+      - ElementName: Play_track1
         ObjectType: 3
-      ID: 623086306
-      Guid: 2b36c3880c9e0b4c893c971f01afef81
+      ID: -871011756
+      Guid: 92e43964ced2334f9c4e916a42550ef5
+      maxAttenuation: 0
+    - Name: Play_track2
+      Path: Default Work Unit\Play_track2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_track2
+        ObjectType: 3
+      ID: -871011753
+      Guid: c64b6f151f2aff4b9d9050ac645b9128
+      maxAttenuation: 0
+    - Name: Play_track3
+      Path: Default Work Unit\Play_track3
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_track3
+        ObjectType: 3
+      ID: -871011754
+      Guid: ad20a22209405c45b453731870a10f7f
+      maxAttenuation: 0
+    - Name: Play_track4
+      Path: Default Work Unit\Play_track4
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_track4
+        ObjectType: 3
+      ID: -871011759
+      Guid: 1c40c8a5f79ad0439edf49a533f2147f
+      maxAttenuation: 0
+    - Name: Play_track5
+      Path: Default Work Unit\Play_track5
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_track5
+        ObjectType: 3
+      ID: -871011760
+      Guid: 71c7f82ff5353c4b88604949cdf52588
+      maxAttenuation: 0
+    - Name: Stop_track1
+      Path: Default Work Unit\Stop_track1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_track1
+        ObjectType: 3
+      ID: -1457102050
+      Guid: eb23a6961faff5419fd1378d54749f64
+      maxAttenuation: 0
+    - Name: Stop_track2
+      Path: Default Work Unit\Stop_track2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_track2
+        ObjectType: 3
+      ID: -1457102051
+      Guid: 3399832853856a4893daf37b6dde2dce
+      maxAttenuation: 0
+    - Name: Stop_track3
+      Path: Default Work Unit\Stop_track3
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_track3
+        ObjectType: 3
+      ID: -1457102052
+      Guid: 1f09ca7498654443b610e054d404235a
+      maxAttenuation: 0
+    - Name: Stop_track4
+      Path: Default Work Unit\Stop_track4
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_track4
+        ObjectType: 3
+      ID: -1457102053
+      Guid: 194a6fcdd79acd40bdf8c49ad5b2224f
+      maxAttenuation: 0
+    - Name: Stop_track5
+      Path: Default Work Unit\Stop_track5
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_track5
+        ObjectType: 3
+      ID: -1457102054
+      Guid: 28d25ad55b4f334285a22960aad76e5b
+      maxAttenuation: 0
+    - Name: Unmute_lead
+      Path: Default Work Unit\Unmute_lead
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Unmute_lead
+        ObjectType: 3
+      ID: 1332330304
+      Guid: 4be8e5988385a849973935a08dbc2977
       maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
-    Guid: '{5EC7B16E-1324-4F1F-B8A6-5A6176FA59EA}'
-    m_lastTimePsrt1: -822650221
-    m_lastTimePart2: -1999355516
+    Guid: '{3D172222-7DC7-4828-A4CB-B85C5FC6D583}'
+    m_lastTimePsrt1: -956674979
+    m_lastTimePart2: -1999355325
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
-    Guid: '{353682F0-3BD4-481D-9590-5F10E6E8E957}'
-    m_lastTimePsrt1: -822580162
-    m_lastTimePart2: -1999355516
+    Guid: '{0C83B778-83EE-411B-8686-7130EDA2B32A}'
+    m_lastTimePsrt1: -956995258
+    m_lastTimePart2: -1999355325
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
-    Guid: '{6058C3F4-E356-44BE-A0F5-D11BB1EC8BD2}'
-    m_lastTimePsrt1: -822620198
-    m_lastTimePart2: -1999355516
+    Guid: '{493D477B-0445-4699-9A43-345F85FB48D3}'
+    m_lastTimePsrt1: -956875154
+    m_lastTimePart2: -1999355325
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
-    Guid: '{1EED5AE9-14F9-44FC-B08F-BAD982AAC9B6}'
-    m_lastTimePsrt1: -822750319
-    m_lastTimePart2: -1999355516
-    List: []
+    Guid: '{7822999B-47B5-4B5A-B50B-7920C641C2E3}'
+    m_lastTimePsrt1: -956594907
+    m_lastTimePart2: -1999355325
+    List:
+    - Name: New_SoundBank
+      Path: Default Work Unit\New_SoundBank
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: New_SoundBank
+        ObjectType: 7
+      ID: -222937841
+      Guid: 3f8d912c6b30dc479cec993e837a5476
   ExpandedItems:
-  - /ggj_2017_WwiseProject
+  - /GG 7pedal
+  - /GG 7pedal/Events
+  - /GG 7pedal/Events/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
   basePath: Audio\GeneratedSoundBanks
   language: English(US)
-  defaultPoolSize: 4096
-  lowerPoolSize: 2048
-  streamingPoolSize: 1024
+  defaultPoolSize: 8192
+  lowerPoolSize: 4096
+  streamingPoolSize: 2048
   preparePoolSize: 0
   memoryCutoffThreshold: 0.95

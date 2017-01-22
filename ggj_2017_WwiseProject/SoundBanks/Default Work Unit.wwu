@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{1EED5AE9-14F9-44FC-B08F-BAD982AAC9B6}" SchemaVersion="75">
+<WwiseDocument Type="WorkUnit" ID="{7822999B-47B5-4B5A-B50B-7920C641C2E3}" SchemaVersion="75">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{1EED5AE9-14F9-44FC-B08F-BAD982AAC9B6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7822999B-47B5-4B5A-B50B-7920C641C2E3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="New_SoundBank" ID="{2C918D3F-306B-47DC-9CEC-993E837A5476}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_track4" ID="{CD6F4A19-9AD7-40CD-BDF8-C49AD5B2224F}" WorkUnitID="{B5939626-50A4-4E12-B729-301CA8A0DFDA}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_track1" ID="{96A623EB-AF1F-41F5-9FD1-378D54749F64}" WorkUnitID="{B5939626-50A4-4E12-B729-301CA8A0DFDA}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_track5" ID="{D55AD228-4F5B-4233-85A2-2960AAD76E5B}" WorkUnitID="{B5939626-50A4-4E12-B729-301CA8A0DFDA}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_track3" ID="{74CA091F-6598-4344-B610-E054D404235A}" WorkUnitID="{B5939626-50A4-4E12-B729-301CA8A0DFDA}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_track4" ID="{A5C8401C-9AF7-43D0-9EDF-49A533F2147F}" WorkUnitID="{B5939626-50A4-4E12-B729-301CA8A0DFDA}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_track3" ID="{22A220AD-4009-455C-B453-731870A10F7F}" WorkUnitID="{B5939626-50A4-4E12-B729-301CA8A0DFDA}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_track2" ID="{28839933-8553-486A-93DA-F37B6DDE2DCE}" WorkUnitID="{B5939626-50A4-4E12-B729-301CA8A0DFDA}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Unmute_lead" ID="{98E5E84B-8583-49A8-9739-35A08DBC2977}" WorkUnitID="{B5939626-50A4-4E12-B729-301CA8A0DFDA}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_track5" ID="{2FF8C771-35F5-4B3C-8860-4949CDF52588}" WorkUnitID="{B5939626-50A4-4E12-B729-301CA8A0DFDA}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_track2" ID="{156F4BC6-2A1F-4BFF-9D90-50AC645B9128}" WorkUnitID="{B5939626-50A4-4E12-B729-301CA8A0DFDA}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Mute_lead" ID="{26B3855B-3C2F-4CFD-8C67-C405FB8622D7}" WorkUnitID="{B5939626-50A4-4E12-B729-301CA8A0DFDA}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_track1" ID="{6439E492-D2CE-4F33-9C4E-916A42550EF5}" WorkUnitID="{B5939626-50A4-4E12-B729-301CA8A0DFDA}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

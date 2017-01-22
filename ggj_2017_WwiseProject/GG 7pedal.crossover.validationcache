@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="75">
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="394466432" DateHigh="30569333"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Attenuations\Default Work Unit.wwu" DateLow="394466432" DateHigh="30569333"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Audio Devices\Default Work Unit.wwu" DateLow="394466432" DateHigh="30569333"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Control Surface Sessions\Default Work Unit.wwu" DateLow="394466432" DateHigh="30569333"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Conversion Settings\Default Work Unit.wwu" DateLow="394466432" DateHigh="30569333"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3659302912" DateHigh="30569328"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Dynamic Dialogue\Default Work Unit.wwu" DateLow="394466432" DateHigh="30569333"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Effects\Default Work Unit.wwu" DateLow="394466432" DateHigh="30569333"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Effects\Factory Effects.wwu" DateLow="534728064" DateHigh="30569341"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Events\Default Work Unit.wwu" DateLow="394466432" DateHigh="30569333"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Game Parameters\Default Work Unit.wwu" DateLow="3603554432" DateHigh="30569458"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\GG 7pedal.crossover.wsettings" DateLow="3673554432" DateHigh="30569458"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\GG 7pedal.wproj" DateLow="384466432" DateHigh="30569333"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3603554432" DateHigh="30569458"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="534728064" DateHigh="30569341"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Mixing Sessions\Default Work Unit.wwu" DateLow="394466432" DateHigh="30569333"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Modulators\Default Work Unit.wwu" DateLow="394466432" DateHigh="30569333"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Presets\Default Work Unit.wwu" DateLow="394466432" DateHigh="30569333"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Queries\Default Work Unit.wwu" DateLow="394466432" DateHigh="30569333"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Queries\Factory Queries.wwu" DateLow="3659302912" DateHigh="30569328"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\SoundBanks\Default Work Unit.wwu" DateLow="394466432" DateHigh="30569333"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Soundcaster Sessions\Default Work Unit.wwu" DateLow="394466432" DateHigh="30569333"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\States\Default Work Unit.wwu" DateLow="394466432" DateHigh="30569333"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Switches\Default Work Unit.wwu" DateLow="394466432" DateHigh="30569333"/>
+	<ValidationCacheItem File="Z:\Volumes\Macintosh HD\ENJMIN\JAM\Global Game Jam\Wwise\GG 7pedal\Triggers\Default Work Unit.wwu" DateLow="394466432" DateHigh="30569333"/>
+</ValidationCache>

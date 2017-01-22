@@ -1,12 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{FC182F1E-F415-4064-BD09-338E0857A9F6}" SchemaVersion="75">
+<WwiseDocument Type="WorkUnit" ID="{D1B999C3-E6C8-4EC3-BC35-BFFB217F5163}" SchemaVersion="75">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{FC182F1E-F415-4064-BD09-338E0857A9F6}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{D1B999C3-E6C8-4EC3-BC35-BFFB217F5163}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="BypassEffect0" ID="{B3196A7A-67F5-4F11-9179-BB7DBC86DF52}"/>
-				<GameParameter Name="BypassEffect1" ID="{9923801F-CD9B-43A4-8484-25C55FE52D62}"/>
-				<GameParameter Name="BypassEffect2" ID="{8AD9A9C5-35C5-4049-9188-EE2762EED4AF}"/>
-				<GameParameter Name="BypassEffect3" ID="{904368DE-3833-4034-AA84-D7B6F6ECB0D5}"/>
+				<GameParameter Name="FX1" ID="{4C3AE45D-1F8A-4B56-BD0A-B67D220A7DCE}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="FX2" ID="{1DD23F2D-F884-408D-8528-0DBEFA76801A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="FX3" ID="{0B88037C-FB37-4197-B608-46A63B1A32B6}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="FX4" ID="{A791F466-D014-4F2B-A9F8-C2193F3D59A7}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="FX5" ID="{F0898A16-1FB5-4570-A759-C8D6447A5C8D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="FX6" ID="{B49D39FE-FFFB-4292-AC6F-187DC7EB7D13}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
