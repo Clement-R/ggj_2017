@@ -21,7 +21,7 @@ public class MainMenuManager : MonoBehaviour {
     void Play() {
         AkSoundEngine.PostEvent("Play_Select_button", gameObject);
         AkSoundEngine.PostEvent("Stop_menu_loop", gameObject);
-        SceneManager.LoadScene("main");
+        SceneManager.LoadScene("level_1");
     }
 
     void Credits() {

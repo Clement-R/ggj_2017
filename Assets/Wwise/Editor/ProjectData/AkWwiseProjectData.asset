@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{B5939626-50A4-4E12-B729-301CA8A0DFDA}'
-    m_lastTimePsrt1: 284440756
-    m_lastTimePart2: -1999355245
+    m_lastTimePsrt1: -982332303
+    m_lastTimePart2: -1999355200
     List:
     - Name: Mute_lead
       Path: Default Work Unit\Mute_lead
@@ -169,6 +169,16 @@ MonoBehaviour:
       ID: -871011760
       Guid: 71c7f82ff5353c4b88604949cdf52588
       maxAttenuation: 0
+    - Name: Stop_All
+      Path: Default Work Unit\Stop_All
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_All
+        ObjectType: 3
+      ID: 452547817
+      Guid: a5aef1e455aa7042a6b9846f9efe44bd
+      maxAttenuation: 0
     - Name: Stop_menu_loop
       Path: Default Work Unit\Stop_menu_loop
       PathAndIcons:
@@ -264,8 +274,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{7822999B-47B5-4B5A-B50B-7920C641C2E3}'
-    m_lastTimePsrt1: 284485805
-    m_lastTimePart2: -1999355245
+    m_lastTimePsrt1: -869555457
+    m_lastTimePart2: -1999355200
     List:
     - Name: New_SoundBank
       Path: Default Work Unit\New_SoundBank

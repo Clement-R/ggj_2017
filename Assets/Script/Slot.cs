@@ -40,12 +40,36 @@ public class Slot : MonoBehaviour, IDropHandler {
                     // Get first empty cell position in the targeted column
                     KeyValuePair<int, int> cellPosition = gridManager.getFirstEmptyCellInColumn(x);
 
+                    // Get informations about actual parent of the dragged block
+                    bool comingFromGrid = false;
+                    int parentX = 0;
+                    int parentY = 0;
+                    if (!eventData.pointerDrag.gameObject.transform.parent.name.Contains("Panel")) {
+                        string[] parentName = eventData.pointerDrag.gameObject.transform.parent.name.Split('_');
+                        string parentTag = eventData.pointerDrag.gameObject.transform.parent.tag;
+                        parentX = Int32.Parse(parentName[0]);
+                        parentY = Int32.Parse(parentName[1]);
+
+                        comingFromGrid = true;
+
+                        Debug.Log(eventData.pointerDrag.gameObject.transform.parent.name);
+                        
+                    }
+
                     // Check if the new position is valid with the block under
                     if (cellPosition.Value == 0) {
                         newPositionIsValid = true;
                     } else {
+                        // If the position is valid in the grid
                         if (gameManager.isPositionValid(cellPosition.Key, cellPosition.Value, blockType)) {
-                            newPositionIsValid = true;
+                            if(comingFromGrid) {
+                                if (x == parentX && parentY == (y - 1)) {
+                                } else {
+                                    newPositionIsValid = true;
+                                }
+                            } else {
+                                newPositionIsValid = true;
+                            }
                         }
                     }
 
@@ -63,6 +87,7 @@ public class Slot : MonoBehaviour, IDropHandler {
                         // Get transform of the given cell and call setParent with it as parameter
                         Transform targetedCell = GameObject.Find(cellPosition.Key + "_" + cellPosition.Value).transform;
                         DragHandler.itemBeingDragged.transform.SetParent(targetedCell);
+
                     } else {
                         AkSoundEngine.PostEvent("Play_Block_error", gameObject);
                     }

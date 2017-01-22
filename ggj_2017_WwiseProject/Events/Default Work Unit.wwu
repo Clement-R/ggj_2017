@@ -319,6 +319,11 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_All" ID="{E4F1AEA5-AA55-4270-A6B9-846F9EFE44BD}">
+					<ChildrenList>
+						<Action Name="Stop All" ID="{EF0A2E26-DFA2-4ABB-AF32-1E42FE2C3BC8}" ShortID="746909785" Type="Stop" Scope="All" Global="true"/>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

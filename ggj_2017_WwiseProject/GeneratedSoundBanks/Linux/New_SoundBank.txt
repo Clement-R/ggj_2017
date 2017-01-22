@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	164845295	Play_Over_button			\Default Work Unit\Play_Over_button	
+	452547817	Stop_All			\Default Work Unit\Stop_All	
 	464882912	Play_menu_loop			\Default Work Unit\Play_menu_loop	
 	880454473	Play_Select_button			\Default Work Unit\Play_Select_button	
 	1332330304	Unmute_lead			\Default Work Unit\Unmute_lead	

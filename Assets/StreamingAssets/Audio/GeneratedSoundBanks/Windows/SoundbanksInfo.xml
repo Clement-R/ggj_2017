@@ -22,11 +22,21 @@
 			<Path>New_SoundBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3255747639" Name="Mute_lead" ObjectPath="\Events\Default Work Unit\Mute_lead"/>
+				<Event Id="2567491791" Name="Play_Attraper_block" ObjectPath="\Events\Default Work Unit\Play_Attraper_block"/>
+				<Event Id="2101135110" Name="Play_Block_error" ObjectPath="\Events\Default Work Unit\Play_Block_error"/>
+				<Event Id="3086475066" Name="Play_Block_ok" ObjectPath="\Events\Default Work Unit\Play_Block_ok"/>
+				<Event Id="464882912" Name="Play_menu_loop" ObjectPath="\Events\Default Work Unit\Play_menu_loop"/>
+				<Event Id="164845295" Name="Play_Over_button" ObjectPath="\Events\Default Work Unit\Play_Over_button"/>
+				<Event Id="2497872556" Name="Play_play_song" ObjectPath="\Events\Default Work Unit\Play_play_song"/>
+				<Event Id="3954142103" Name="Play_Poser_block" ObjectPath="\Events\Default Work Unit\Play_Poser_block"/>
+				<Event Id="880454473" Name="Play_Select_button" ObjectPath="\Events\Default Work Unit\Play_Select_button"/>
+				<Event Id="3949353486" Name="Play_Stop_song" ObjectPath="\Events\Default Work Unit\Play_Stop_song"/>
 				<Event Id="3423955540" Name="Play_track1" ObjectPath="\Events\Default Work Unit\Play_track1"/>
 				<Event Id="3423955543" Name="Play_track2" ObjectPath="\Events\Default Work Unit\Play_track2"/>
 				<Event Id="3423955542" Name="Play_track3" ObjectPath="\Events\Default Work Unit\Play_track3"/>
 				<Event Id="3423955537" Name="Play_track4" ObjectPath="\Events\Default Work Unit\Play_track4"/>
 				<Event Id="3423955536" Name="Play_track5" ObjectPath="\Events\Default Work Unit\Play_track5"/>
+				<Event Id="3742599546" Name="Stop_menu_loop" ObjectPath="\Events\Default Work Unit\Stop_menu_loop"/>
 				<Event Id="2837865246" Name="Stop_track1" ObjectPath="\Events\Default Work Unit\Stop_track1"/>
 				<Event Id="2837865245" Name="Stop_track2" ObjectPath="\Events\Default Work Unit\Stop_track2"/>
 				<Event Id="2837865244" Name="Stop_track3" ObjectPath="\Events\Default Work Unit\Stop_track3"/>
@@ -35,6 +45,18 @@
 				<Event Id="1332330304" Name="Unmute_lead" ObjectPath="\Events\Default Work Unit\Unmute_lead"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="25315431" Language="SFX">
+					<ShortName>Play_song.wav</ShortName>
+					<Path>SFX\Play_song_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="234579249" Language="SFX">
+					<ShortName>Musique_menu_loop.wav</ShortName>
+					<Path>SFX\Musique_menu_loop_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="255324593" Language="SFX">
+					<ShortName>Select_button.wav</ShortName>
+					<Path>SFX\Select_button_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="294303416" Language="SFX">
 					<ShortName>Base_Shamiser.wav</ShortName>
 					<Path>SFX\Base_Shamiser_4B8CC0C5.wem</Path>
@@ -55,6 +77,22 @@
 					<ShortName>Base_Guitare.wav</ShortName>
 					<Path>SFX\Base_Guitare_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="475823410" Language="SFX">
+					<ShortName>Block_ok.wav</ShortName>
+					<Path>SFX\Block_ok_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="534982749" Language="SFX">
+					<ShortName>Block_error.wav</ShortName>
+					<Path>SFX\Block_error_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="643761330" Language="SFX">
+					<ShortName>Attraper_block.wav</ShortName>
+					<Path>SFX\Attraper_block_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="743820064" Language="SFX">
+					<ShortName>Poser_block.wav</ShortName>
+					<Path>SFX\Poser_block_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="912189588" Language="SFX">
 					<ShortName>Lead_Guitare.wav</ShortName>
 					<Path>SFX\Lead_Guitare_4B8CC0C5.wem</Path>
@@ -67,9 +105,17 @@
 					<ShortName>Lead_Shamiser.wav</ShortName>
 					<Path>SFX\Lead_Shamiser_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="953174093" Language="SFX">
+					<ShortName>Stop_song.wav</ShortName>
+					<Path>SFX\Stop_song_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="970703839" Language="SFX">
 					<ShortName>Lead_Harmonica.wav</ShortName>
 					<Path>SFX\Lead_Harmonica_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="1051239882" Language="SFX">
+					<ShortName>Over_button.wav</ShortName>
+					<Path>SFX\Over_button_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="1070898174" Language="SFX">
 					<ShortName>Base_Flute.wav</ShortName>

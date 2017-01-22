@@ -36,6 +36,7 @@
 				<Event Id="3423955542" Name="Play_track3" ObjectPath="\Events\Default Work Unit\Play_track3"/>
 				<Event Id="3423955537" Name="Play_track4" ObjectPath="\Events\Default Work Unit\Play_track4"/>
 				<Event Id="3423955536" Name="Play_track5" ObjectPath="\Events\Default Work Unit\Play_track5"/>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All"/>
 				<Event Id="3742599546" Name="Stop_menu_loop" ObjectPath="\Events\Default Work Unit\Stop_menu_loop"/>
 				<Event Id="2837865246" Name="Stop_track1" ObjectPath="\Events\Default Work Unit\Stop_track1"/>
 				<Event Id="2837865245" Name="Stop_track2" ObjectPath="\Events\Default Work Unit\Stop_track2"/>

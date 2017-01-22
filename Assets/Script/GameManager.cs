@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour {
     public List<Sprite> playingButtons = new List<Sprite>();
     public List<Sprite> waitingButtons = new List<Sprite>();
     public bool hasWin = false;
+    public GameObject victoryPanel;
 
     Dictionary<int, List<int>> validBlocks = new Dictionary<int, List<int>>();
     GridManager gridManager;
@@ -23,16 +24,13 @@ public class GameManager : MonoBehaviour {
         GameObject.Find("FinalButton").GetComponent<PlayFinalSound>().isPlaying = playingButtons[levelIndex - 1];
         GameObject.Find("FinalButton").GetComponent<PlayFinalSound>().isWaiting = waitingButtons[levelIndex - 1];
 
-        GameObject.Find("CurrentButton").GetComponent<PlayCurrentSound>().isPlaying = playingButtons[levelIndex - 1];
-        GameObject.Find("CurrentButton").GetComponent<PlayCurrentSound>().isWaiting = waitingButtons[levelIndex - 1];
-
         gridManager = GetComponent<GridManager>();
 
-        validBlocks[0] = new List<int>(new int[2] { 0, 3 });
-        validBlocks[1] = new List<int>(new int[3] { 0, 2, 4 });
-        validBlocks[2] = new List<int>(new int[4] { 0, 1, 2, 4 });
-        validBlocks[3] = new List<int>(new int[1] { 0 });
-        validBlocks[4] = new List<int>(new int[2] { 2, 3 });
+        validBlocks[0] = new List<int>(new int[3] { 0, 3, 5 });
+        validBlocks[1] = new List<int>(new int[4] { 0, 2, 4, 5 });
+        validBlocks[2] = new List<int>(new int[5] { 0, 1, 2, 4, 5 });
+        validBlocks[3] = new List<int>(new int[2] { 0, 5 });
+        validBlocks[4] = new List<int>(new int[3] { 2, 3, 5 });
         validBlocks[5] = new List<int>(new int[6] { 0, 1, 2, 3, 4, 5 });
 
         for (int i = 0; i < waitedModifiers.Count; i++) {
@@ -67,6 +65,7 @@ public class GameManager : MonoBehaviour {
 
             // Check all modifiers and activate RTPC accordingly
             bool allRtcpActivated = false;
+
             foreach (var rtpc in rtpcs) {
                 if (rtpc.Value == 0) {
                     AkSoundEngine.SetRTPCValue("FX" + rtpc.Key, 0.25f);
@@ -79,6 +78,7 @@ public class GameManager : MonoBehaviour {
 
             if (allRtcpActivated) {
                 hasWin = true;
+                victoryPanel.SetActive(true);
             }
         }
     }
